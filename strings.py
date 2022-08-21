@@ -96,6 +96,52 @@ print("""1.
 
 #------------
 
+str = "Hello world!"
+print(str[6])
+
+#------------
+
+x = "Python"
+print(x[1] + x[4])
+
+#------------
+
+'''
+Write a program that takes an input string and outputs the 3rd character of the string.
+'''
+my_string = input()
+print(my_string[2])
+
+#------------
+
+x = "hello world"
+
+if "world" in x:
+  print("Yes")
+
+#------------
+
+str = "testing for loops"
+count = 0
+
+for x in str:
+  if(x == 't'):
+    count += 1
+
+print(count)
+
+#------------
+
+text = "some text"
+for x in text:
+  if x == 'e':
+    break
+  print(x)
+
+#------------
+
+
+
 
 
 
