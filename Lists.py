@@ -230,6 +230,82 @@ print(N * (N + 1) // 2)
 
 #------------
 
+nums = [1, 3, 5, 2, 4]
+print(len(nums))
+
+#------------
+
+nums = [1, 2, 3]
+nums.append(4)
+print(nums)
+
+#------------
+
+words = ["Python", "fun"]
+words.insert(1, "is")
+print(words)
+
+#------------
+
+letters = ['p', 'q', 'r', 's', 'p', 'u']
+print(letters.index('r'))
+print(letters.index('p'))
+print(letters.index('q'))
+
+#------------
+
+x = [1, 8, 42, 3]
+
+print(min(x))
+print(max(x))
+
+#------------
+
+x = [2, 4, 6, 2, 7, 2, 9]
+print(x.count(2))
+
+x.remove(4)
+print(x)
+
+x.reverse()
+print(x)
+
+#------------
+
+'''
+Write a program to take an input, add it to the end of the queue, and output the resulting list.
+'''
+queue = ['John', 'Amy', 'Bob', 'Adam']
+name = input()
+queue.append(name)
+print(queue)
+
+#------------
+
+nums = [4, 5, 6]
+msg = "Numbers: {0} {1} {2}". format(nums[0], nums[1], nums[2])
+print(msg)
+
+#------------
+
+x = ", ".join(["spam", "eggs", "ham"])
+print(x)
+
+#------------
+
+str = "some text goes here"
+x = str.split(' ')
+print(x)
+
+#------------
+
+nums = [1, 3, 5, 2, 4]
+print(len(nums))
+
+#------------
+
+
+
 
 
 

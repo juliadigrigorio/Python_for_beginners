@@ -140,6 +140,55 @@ for x in text:
 
 #------------
 
+str = "some text"
+x = len(str)
+print(x)
+
+#------------
+
+nums = [4, 5, 6]
+msg = "Numbers: {0} {1} {2}". format(nums[0], nums[1], nums[2])
+print(msg)
+
+#------------
+
+a = "{x}, {y}".format(x=5, y=12)
+print(a)
+
+#------------
+
+x = ", ".join(["spam", "eggs", "ham"])
+print(x)
+
+#------------
+
+str = "some text goes here"
+x = str.split(' ')
+print(x)
+
+#------------
+
+x = "Hello ME"
+print(x.replace("ME", "world"))
+
+#------------
+
+print("This is a sentence.".upper())
+print("AN ALL CAPS SENTENCE".lower())
+
+#------------
+
+'''
+Replace all of the # characters in the given input with spaces and output the result.
+'''
+msg = input()
+x = msg.replace('#', ' ')
+print(x)
+
+#------------
+
+
+
 
 
 
